@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.absensionline">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.absensionline.LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.absensionline.MenuActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.absensionline.AddAttendanceActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.absensionline.AddAttandanceSessionActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.absensionline.AddLecturerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.absensionline.AddStudentActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.absensionline.ViewLecturerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.absensionline.ViewStudentActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.absensionline.ViewAttandanceActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.example.absensionline.TestActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.absensionline.ViewStudentByBranchYear"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.absensionline.ViewAttendanceByLecturerActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.absensionline.ViewAttendancePerStudentActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+    </application>
+</manifest>

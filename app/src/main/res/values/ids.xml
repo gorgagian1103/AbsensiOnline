@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="spinnerbranchView" type="id" />
+    <item name="spinneryearView" type="id" />
+    <item name="labelF" type="id" />
+    <item name="label" type="id" />
+    <item name="PresentradioButton" type="id" />
+    <item name="AbsentradioButton" type="id" />
+    <item name="radioGroup" type="id" />
+    <item name="attendanceSubmitButton" type="id" />
+    <item name="labelA" type="id" />
+</resources>
